@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "OO2_TP01-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"owner",
+		"text",
+		"creationDate",
+		"topics",
+		"likes",
+		"dislikes"
+	],
+	"name" : "Post",
+	"type" : "normal"
+}

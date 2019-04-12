@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "FernandoDC 4/11/2019 18:15",
+	"super" : "WASession",
+	"category" : "OO2_TP01-WebComponents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user"
+	],
+	"name" : "UserSession",
+	"type" : "normal"
+}

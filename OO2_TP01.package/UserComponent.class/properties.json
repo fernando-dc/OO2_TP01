@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CommonRendererComponent",
+	"category" : "OO2_TP01-WebComponents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user",
+		"cuoora",
+		"questionRender"
+	],
+	"name" : "UserComponent",
+	"type" : "normal"
+}
