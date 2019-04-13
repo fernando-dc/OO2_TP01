@@ -1,13 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
+	"super" : "CommonRendererComponent",
 	"category" : "OO2_TP01-WebComponents",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"question",
-		"cuoora",
 		"newAnswer"
 	],
 	"name" : "QuestionComponent",

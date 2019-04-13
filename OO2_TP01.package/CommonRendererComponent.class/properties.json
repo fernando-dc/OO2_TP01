@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"cuoora"
+	],
 	"name" : "CommonRendererComponent",
 	"type" : "normal"
 }

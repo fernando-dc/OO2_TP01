@@ -1,4 +1,4 @@
-rendering
+rendering heading
 renderLogin: htmlCanvas
 	self session isLoggedIn
 		ifFalse: [htmlCanvas form:[
