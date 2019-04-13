@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"user",
-		"questionRender"
+		"user"
 	],
 	"name" : "UserComponent",
 	"type" : "normal"

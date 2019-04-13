@@ -10,11 +10,11 @@ renderNewQuestionForm: htmlCanvas
 				
 				htmlCanvas tableRow:[
 						htmlCanvas tableHeading:[htmlCanvas text: 'Description:'.].
-						htmlCanvas tableData:[htmlCanvas textInput on:#text of: self;size: 60. ].
+						htmlCanvas tableData:[htmlCanvas textInput class: 'increasedHeight'; on:#text of: self;size: 60. ].
 				].
 				htmlCanvas tableRow:[
 						htmlCanvas tableHeading:[htmlCanvas text:'Topics:'.].
-						htmlCanvas tableData:[htmlCanvas textInput on: #topics of: self;size: 60.].
+						htmlCanvas tableData:[htmlCanvas textInput on: #topics of: self;size: 60; placeholder: 'Input each topic separated by a comma(,) like: topic1,topic2,...'].
 				].
 			htmlCanvas tableRow:[
 					htmlCanvas tableData:[].

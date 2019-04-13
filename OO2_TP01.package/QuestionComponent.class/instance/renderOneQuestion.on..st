@@ -3,8 +3,10 @@ renderOneQuestion: aQuestion on: htmlCanvas
 	
 		self renderQuestionTitle: aQuestion on: htmlCanvas.
 		self renderQuesitonTopics: aQuestion on: htmlCanvas.
+		
+		self renderQuestionText: htmlCanvas.
+		
 		self renderQuestionOwnerAndAnswers: aQuestion on: htmlCanvas.
-		htmlCanvas break.
 		self renderPostReactions: aQuestion on: htmlCanvas.
 		(self session isLoggedIn)
 				ifTrue:

@@ -14,7 +14,7 @@ renderLogin: htmlCanvas
 			htmlCanvas form:[ 
 						self renderLoggedUserDataOn: htmlCanvas.
 						htmlCanvas tbsButton
-						callback: [ self session logout. self answer];
+						callback: [ self session logout. self goToHomePage: cuoora];
 						beDanger;
 						beLarge;
 						with: 'Logout'.
