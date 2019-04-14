@@ -1,4 +1,4 @@
-rendering
+rendering heading
 renderLoggedUserDataOn: htmlCanvas
 |loggedUser|
 	self session isLoggedIn
