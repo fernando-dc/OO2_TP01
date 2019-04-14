@@ -6,14 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cuoora",
-		"vettel",
-		"lauda",
-		"question",
-		"answer",
-		"topic1",
-		"topic2"
+		"answer"
 	],
-	"name" : "ManagementSystemTest",
+	"name" : "AnswerTest",
 	"type" : "normal"
 }
