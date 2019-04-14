@@ -1,3 +1,3 @@
 accessing
 dislikes
-	^ dislikes.
+	^ reactions reject: [ :reaction | reaction isLike ].

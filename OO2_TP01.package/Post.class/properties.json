@@ -9,9 +9,7 @@
 		"owner",
 		"text",
 		"creationDate",
-		"topics",
-		"likes",
-		"dislikes"
+		"reactions"
 	],
 	"name" : "Post",
 	"type" : "normal"

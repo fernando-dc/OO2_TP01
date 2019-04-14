@@ -1,3 +1,3 @@
 accessing
 dislikedBy
-	^ dislikes collect: [ :dislike | dislike user ].
+	^ (self dislikes) collect: [ :dislike | dislike user ].

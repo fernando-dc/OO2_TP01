@@ -12,15 +12,17 @@ devTestNetwork
 	user3 := User withName: 'Alonso' password: 'LeMans' interests: { topic3.topic5. }.
 
 	q1 := Question withText: 'Just what the title reads' title: 'Why is F1 so good?'  topics: { topic1. topic3. }.
-	q2 := Question withText: 'nothing further' title: 'Who read Stephen Haking new book?' topics: { topic4. } owner: user2.
+	q2 := Question withText: 'nothing further' title: 'Who read Stephen Haking new book?' topics: { topic4. }.
 	q3 := Question withText: 'In kilometers please!' title: 'How long is LeMans track?'  topics: { topic5. }.
 	q4 := Question withText: 'On seaside framework' title: 'How do I redirect to home page?'  topics: { topic4. topic3. }.
 	q5 := Question withText: 'At Monza' title: 'What is F1 cars top speed?'  topics: { topic5. }.
 	q6 := Question withText: 'Dont say 42...' title: 'What is the meaning of life?'  topics: { topic2. }.
 	q7 := Question withText: 'It comes from the fan' title: 'Why is my pc making funny noises?'  topics: { topic2. topic1. }.
 	
-	a1 := Answer withText: 'Just because it is' owner: user2.
-	a2 := Answer withText: 'I did, fully recommend it!.' owner: user3.
+	a1 := Answer withText: 'Just because it is'.
+	a1 owner: user2.
+	a2 := Answer withText: 'I did, fully recommend it!.'.
+	a2 owner: user3.
 	q1 addAnswer: a2.
 	q2 addAnswer: a1.
 	

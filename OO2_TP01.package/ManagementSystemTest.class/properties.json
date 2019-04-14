@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "OO2_TP01-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cuoora",
+		"vettel",
+		"lauda",
+		"question",
+		"answer"
+	],
+	"name" : "ManagementSystemTest",
+	"type" : "normal"
+}

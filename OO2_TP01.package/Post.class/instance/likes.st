@@ -1,3 +1,3 @@
 accessing
 likes
-	^ likes.
+	^ reactions select: [:reaction | reaction isLike].

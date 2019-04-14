@@ -1,3 +1,3 @@
 accessing
 likedBy
-	^ likes collect: [ :like | like user ].
+	^ (self likes) collect: [ :like | like user ].

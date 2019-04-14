@@ -13,7 +13,7 @@ renderLoginForm: htmlCanvas
 							htmlCanvas
 								tableData: [ htmlCanvas textInput
 										on: #password of: self;
-										placeholder: 'Type password here' ] ] ].
+										placeholder: 'Type password here';type:'password' ] ] ].
 			htmlCanvas tbsButton
 				callback: [ self login ];
 				beSuccess;

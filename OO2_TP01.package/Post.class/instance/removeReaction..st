@@ -1,8 +1,5 @@
 private
 removeReaction: anUser
-|reaction|
-	reaction := self reactions detect: [ :r | r user = anUser ] ifNone: [ ^nil].
-	(reaction isNotNil)
-		ifTrue:[ likes remove: reaction ifAbsent: nil.
-					dislikes remove: reaction ifAbsent: nil.
-				].
+|reactionByUser |
+	reactionByUser := reactions detect: [ :r | r user = anUser ] ifNone: [ ^nil].
+	reactions remove: reactionByUser ifAbsent: nil.

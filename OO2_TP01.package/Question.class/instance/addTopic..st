@@ -1,3 +1,3 @@
 adding
 addTopic: aTopic
-	topics := aTopic.
+	topics add: aTopic.

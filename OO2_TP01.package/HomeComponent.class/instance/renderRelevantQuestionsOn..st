@@ -6,5 +6,6 @@ renderRelevantQuestionsOn: htmlCanvas
 	htmlCanvas heading level2; with:'Latest questions:'.
 	htmlCanvas tbsContainer:[
 	relevantQuestions
-		do: [ :question | self renderOneQuestion: question on: htmlCanvas. htmlCanvas horizontalRule.]
-	].
+		do: [ :question | 
+			htmlCanvas div class: 'lightGreyBackground'; with:[ self renderOneQuestion: question on: htmlCanvas.]. htmlCanvas horizontalRule.].
+	]. 

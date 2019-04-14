@@ -1,6 +1,5 @@
 initialization
 initialize
-	likes := Set new.
-	dislikes := Set new.
+	reactions := Set new.
 	creationDate := DateAndTime now.
 	owner := nil.
