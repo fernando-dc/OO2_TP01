@@ -3,6 +3,7 @@ renderOneQuestion: aQuestion on: htmlCanvas
 	
 		self renderQuestionTitle: aQuestion on: htmlCanvas.
 		self renderQuesitonTopics: aQuestion on: htmlCanvas.
+		htmlCanvas horizontalRule class: 'ruleLength'.	
 		
 		self renderQuestionText: htmlCanvas.
 		

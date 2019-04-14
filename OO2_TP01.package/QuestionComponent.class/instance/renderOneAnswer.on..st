@@ -7,6 +7,7 @@ renderOneAnswer: anAnswer on: htmlCanvas
 			htmlCanvas paragraph: anAnswer text.
 		 	htmlCanvas break.
 			self renderPostReactions: anAnswer  on: htmlCanvas.
-			self renderPostReactionButtons: anAnswer  on: htmlCanvas.
+			(self session isLoggedIn)
+					ifTrue: [	self renderPostReactionButtons: anAnswer  on: htmlCanvas.].
 		
 		 ]
