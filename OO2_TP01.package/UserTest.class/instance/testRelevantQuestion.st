@@ -2,7 +2,8 @@ tests
 testRelevantQuestion
 | question1 |
 
-	question1 := Question withText: 'text' title: 'title'  topics: (Vettel interests) owner: Vettel.
+	question1 := Question withText: 'text' title: 'title'  topics: (Vettel interests).
+	question1 owner: Vettel.
 	Vettel addQuestion: question1.
 
 	self deny: (Lauda questionIsRelevant: question1).

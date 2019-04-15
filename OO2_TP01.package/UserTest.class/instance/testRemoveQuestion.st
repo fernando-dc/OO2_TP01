@@ -3,7 +3,8 @@ testRemoveQuestion
 | question1 |
 
 	
-	question1 := Question withText: 'text' title: 'title'  topics: (Vettel interests) owner: Vettel.
+	question1 := Question withText: 'text' title: 'title'  topics: (Vettel interests).
+	question1 owner: Vettel.
 	self assert: Vettel questions isEmpty.
 	
 	Vettel addQuestion: question1.
